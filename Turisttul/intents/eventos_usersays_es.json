@@ -1,0 +1,105 @@
+[
+  {
+    "id": "dd710e84-a43b-401f-b278-8612d3db97ff",
+    "data": [
+      {
+        "text": "que ",
+        "userDefined": false
+      },
+      {
+        "text": "fiestas",
+        "alias": "eventos",
+        "meta": "@eventos",
+        "userDefined": true
+      },
+      {
+        "text": " hay en ",
+        "userDefined": false
+      },
+      {
+        "text": "tulancingo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ebd242f6-2f8f-44e6-9840-c390c2d63e4c",
+    "data": [
+      {
+        "text": "eventos",
+        "alias": "eventos",
+        "meta": "@eventos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da9b8f48-ed43-448e-9698-4851b737dd11",
+    "data": [
+      {
+        "text": "que ",
+        "userDefined": false
+      },
+      {
+        "text": "ferias",
+        "alias": "eventos",
+        "meta": "@eventos",
+        "userDefined": false
+      },
+      {
+        "text": " hay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b4d7d92-6d84-4ae3-863d-537b6692a016",
+    "data": [
+      {
+        "text": "me gustaría saber sobre ",
+        "userDefined": false
+      },
+      {
+        "text": "festivales",
+        "alias": "eventos",
+        "meta": "@eventos",
+        "userDefined": false
+      },
+      {
+        "text": " que hay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a7b0edc5-6e26-48fc-bc9f-69e409aea0ff",
+    "data": [
+      {
+        "text": "quiero saber sobre ",
+        "userDefined": false
+      },
+      {
+        "text": "eventos",
+        "alias": "eventos",
+        "meta": "@eventos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "6dbbb132-3fb6-495b-8f6e-a5912e8cd597",
+  "name": "agra",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

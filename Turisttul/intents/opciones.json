@@ -1,0 +1,98 @@
+{
+  "id": "7410401f-e043-4aa7-8c95-e786c1003648",
+  "name": "opciones",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "opciones-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ab5ebcee-34d6-46d0-9a08-df842f0beba2",
+          "required": false,
+          "dataType": "@agra",
+          "name": "agra",
+          "value": "$agra",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "es",
+          "condition": "",
+          "title": "Aquí puedes encontrar información sobre las zonas importantes de nuestra ciudad",
+          "subtitle": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "informacion",
+                "synonyms": []
+              },
+              "title": "Informacion",
+              "description": "podras encontar informacion a cerca de tulancingo",
+              "image": {
+                "url": "https://image.flaticon.com/icons/png/512/69/69544.png",
+                "accessibilityText": "inf"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "l",
+                "synonyms": []
+              },
+              "title": "Lugares",
+              "description": "",
+              "image": {
+                "url": "https://png.pngtree.com/element_our/png_detail/20181227/find-places-glyph-black-icon-png_293092.jpg",
+                "accessibilityText": "lug"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "e",
+                "synonyms": []
+              },
+              "title": "Eventos",
+              "description": "",
+              "image": {
+                "url": "https://image.flaticon.com/icons/png/512/55/55238.png",
+                "accessibilityText": "eventos"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Aquí puedes encontrar información sobre las zonas importantes de nuestra ciudad"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

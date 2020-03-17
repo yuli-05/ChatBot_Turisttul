@@ -1,0 +1,78 @@
+{
+  "id": "9248cf70-d2b5-4aa8-8dd6-6dd614d343bb",
+  "name": "eventos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "65ac4d7e-f36b-427c-9d51-438510bf2b31",
+          "required": false,
+          "dataType": "@eventos",
+          "name": "eventos",
+          "value": "$eventos",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "es",
+          "condition": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "eventos",
+                "synonyms": []
+              },
+              "title": "Feria de los angelitos",
+              "description": "En Tulancingo se celebra la tradicional Feria de Los Angelitos en las inmediaciones de la parroquia de nuestra señora de los Ángeles, ubicada en la zona Centro de la ciudad. Este festejo se ubica en las calles Echavarri, Libertad, 20 de Noviembre, Primero de Mayo y Callejón del Progreso, mientras que la quema del castillo es el 2 de agosto frente a la secundaria José María Lezama.",
+              "image": {
+                "url": "https://live.staticflickr.com/7539/15949284465_4f0f21ae3e_b.jpg",
+                "accessibilityText": "ev"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "eventos1",
+                "synonyms": []
+              },
+              "title": "Expo feria Tulalancingo",
+              "description": "Durante los días que dura esta feria, se instala una exposición comercial, ganadera, agrícola, industrial y artesanal, (Expo-Tulancingo) en el Centro Comercial de Exposiciones. En esta feria se presenta una excelente oportunidad para adquirir productos artesanales de Tulancingo y de las comunidades circunvecinas, como sarapes, cobijas, chales y suéteres en lana y algodón.",
+              "image": {
+                "url": "https://i0.wp.com/www.puntoporpunto.mx/wp-content/uploads/2018/08/bol.-2114.jpg?fit\u003d600%2C400\u0026ssl\u003d1",
+                "accessibilityText": "feria"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "En Tulancingo cada año se realizan diferentes eventos,ferias y fiestas."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

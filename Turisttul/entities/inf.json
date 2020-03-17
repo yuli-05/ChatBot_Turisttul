@@ -1,0 +1,9 @@
+{
+  "id": "ad569b2c-ce33-49ef-9675-9b1561b507ad",
+  "name": "inf",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

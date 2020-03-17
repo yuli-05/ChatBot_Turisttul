@@ -1,0 +1,77 @@
+{
+  "id": "a8602e87-91f9-486d-9934-47da78477c83",
+  "name": "informacion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a3039684-205b-4151-a6c1-bf88d17b03b5",
+          "required": true,
+          "dataType": "@inf",
+          "name": "inf",
+          "value": "$inf",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Excelente, lija una opción"
+            },
+            {
+              "lang": "es",
+              "value": "Por favor recoja una opción"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "es",
+          "condition": "",
+          "title": "Foto del centro de Tulancingo",
+          "formattedText": "La ciudad de Tulancingo está asentada en un gran valle que antiguamente pudo ser una cuenca lacustre, formada por pequeñas lagunas.\nEl municipio de Tulancingo de Bravo es uno de los ochenta y cuatro municipios que conforman el estado de Hidalgo en México.",
+          "image": {
+            "url": "https://hidalgo.quadratin.com.mx/www/wp-content/uploads/2018/06/tulancingo.jpg",
+            "accessibilityText": "tul"
+          },
+          "buttons": [
+            {
+              "title": "Tulancingo",
+              "openUrlAction": {
+                "url": "http://www.inafed.gob.mx/work/enciclopedia/EMM13hidalgo/municipios/13077a.html",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "El municipio de Tulancingo de Bravo es uno de los ochenta y cuatro municipios que conforman el estado de Hidalgo en México."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,114 @@
+{
+  "id": "7f34e9b5-19ad-418a-8eee-00540290e3ca",
+  "name": "lugares",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c67d9aee-f31d-4c89-b57f-6face5b6a7fc",
+          "required": true,
+          "dataType": "@lugares",
+          "name": "lugares",
+          "value": "$lugares",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "es",
+          "condition": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "museo",
+                "synonyms": []
+              },
+              "title": "Museo del Santo",
+              "description": "El conocido Santo, El Enmascarado de Plata, o con su nombre real Rodolfo Guzmán Huerta, originario de Tulancingo fue un luchador muy importante a nivel nacional. En nombre a sus logros se encuentra un museo con salas dedicadas solo a él. Se encuentran más de 200 piezas en exhibición con grandes fragmentos de su vida para que puedas enterarte más de este dichoso luchador y de su trayectoria. Inaugurado por el hijo del Santo en 2009 es una excelente opción si te encantan las luchas, además se encuentra ubicado en una antigua estación del tren.",
+              "image": {
+                "url": "https://lasillarotarm.blob.core.windows.net.optimalcdn.com/images/2019/09/23/recuerdansantotulancingofloresestatua-focus-0.06-0.49-983-557.jpg",
+                "accessibilityText": "santos"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Zona arqueologica",
+                "synonyms": []
+              },
+              "title": "Zona Arqueológica de Huapalcalco",
+              "description": "Una hermosa Zona Arqueológica ubicada en Huapalcalco, siendo de las más importantes por su nivel histórico ya que ahí se asentaron los primeros toltecas. Se encuentra a tan solo 4 kilómetros de Tulancingo. El sitio destaca por una pirámide de 3 cuerpos de influencia teotihuacana de 12 metros de base y 8 metros de alto, con un altar que se dice era usado para depósito de ofrendas y un conjunto de pinturas rupestres que nos ayudan adentrarnos más a la historia prehispánica, ya que este sitio se aproxima que se construyó hace 13 mil años aproximadamente, siendo un lugar de los primeros pobladores en América. Visita, conoce, sorpréndete.",
+              "image": {
+                "url": "https://sic.cultura.gob.mx/images/27624",
+                "accessibilityText": "huapalcalco"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "ferrocaril",
+                "synonyms": []
+              },
+              "title": "Museo del Ferrocarril",
+              "description": "Una antigua estación ferroviaria en Tulancingo, que muestra la transformación de este medio de transporte dando a conocer los tiempos del ferrocarril de finales del siglo XIX y principios del siglo XX. Exhibe fotografías, objetos de oficina y contabilidad, esenciales para representar la construcción de la estación. Además que cuenta con un recorrido que muestra la cronología de las fechas más significativas no solo para México, sino también para el mundo en general. Conoce la historia de las estaciones ferroviarias.",
+              "image": {
+                "url": "https://i.ytimg.com/vi/pIneRVQEnzQ/maxresdefault.jpg",
+                "accessibilityText": "museo"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "zoologico",
+                "synonyms": []
+              },
+              "title": "Zoológico municipal",
+              "description": "Un lugar para chicos y grandes, cuenta con 180 especies y un total de 390 ejemplares, animales que en el zoológico son muy cuidados como leones, tigres, antílopes  lagartos, osos, avestruces, pumas, venados y un hipopótamo que es la mascota de este lugar.",
+              "image": {
+                "url": "https://www.tulancingo.com.mx/gobierno/2015/0824-zoo1.JPG",
+                "accessibilityText": "zoologico"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "paque",
+                "synonyms": []
+              },
+              "title": "Parque recreativo El caracol",
+              "description": "Un parque para hacer diversas actividades con los niños, proporciona un espacio sano y de aire fresco, que ayuda a fomentar la convivencia familiar y el desarrollo integral de la niñez. Fomentando también la cultura con una ludoteca, una biblioteca, y el deporte con amplias áreas y una pista de patinaje, además de una cafetería en la que puedes ocupar el internet inalámbrico.",
+              "image": {
+                "url": "https://sitio.tulancingo.gob.mx/wp-content/uploads/2017/02/Bolet%C3%ADn-0485.jpg",
+                "accessibilityText": "parque"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Tulancingo es considerada una de las ciudades más importantes del Estado,  muy rico en gastronomía, cultura y tradiciones. Existen lugares muy interesantes para visitar y pasarla genial."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
